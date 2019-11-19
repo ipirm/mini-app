@@ -79,7 +79,7 @@
         padding: 20px 15px;
         left: 0;
         &-select {
-            width: 150px;
+            width: 250px;
             height: 50px;
         }
 

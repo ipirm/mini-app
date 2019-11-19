@@ -1,18 +1,13 @@
-let routerBase;
-if (process.env.DEPLOY_ENV === 'GH_PAGES') {
-    routerBase = {
-        router: {
-            base: '/test-settings/'
-        }
-    }
-}
+
 
 export default {
     mode: 'universal',
     /*
     ** Headers of the page
     */
-    ...routerBase,
+    router: {
+        base: '/test-settings/'
+    },
     head: {
         title: process.env.npm_package_name || '',
         meta: [
