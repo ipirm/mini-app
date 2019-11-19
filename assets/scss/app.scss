@@ -1,0 +1,39 @@
+@import '~bootstrap-scss/bootstrap';
+
+.card {
+  &-btn {
+    color: #808080;
+    font-size: 16px;
+    display: flex;
+    border: 1px solid #808080;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+  }
+}
+
+.overlay-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+@media(max-width: 1100px) {
+
+  .sidebar {
+    width: 50vw !important;
+  }
+}
+@media(max-width: 600px) {
+  .sidebar {
+    width: 100vw !important;
+  }
+}
